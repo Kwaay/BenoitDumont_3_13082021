@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 375px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+  
+  a:visited {
+    color: black;
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+  
+  a:focus {
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+
+
+#header {
+    text-align: center;
+    width: 100%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+#header img {
+    width: 160px;
+    height: auto;
+}
+.localisation {
+    font-family: "Roboto", sans-serif;
+}
+#restaurants img {
+    height: 180px;
+    width: 335px;
+}
+#footer img {
+    width: 95px;
+    height: auto;
+    color: white;
+}
