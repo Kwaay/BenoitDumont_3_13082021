@@ -1,52 +1,211 @@
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    max-width: 375px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  max-width: 375px;
 }
+
+/*-----------[Links]-------------*/
 
 a:link {
-    color: black;
-    text-decoration: none;
-    text-decoration-line: none;
-  }
-  
-  a:visited {
-    color: black;
-    text-decoration: none;
-    text-decoration-line: none;
-  }
-  
-  a:focus {
-    text-decoration: none;
-    text-decoration-line: none;
-  }
-  
-  a:active {
-    text-decoration: none;
-    text-decoration-line: none;
-  }
+  color: black;
+  text-decoration: none;
+  text-decoration-line: none;
+}
 
+a:visited {
+  color: black;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+a:focus {
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+a:active {
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+/*-----------[Section: Header]-------------*/
 
 #header {
-    text-align: center;
-    width: 100%;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+  text-align: center;
+  width: 100%;
 }
 #header img {
-    width: 160px;
-    height: auto;
+  width: 160px;
+  height: auto;
+  padding-top: 2vh;
+  padding-bottom: 1vh;
 }
 .localisation {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: #eaeaea;
+  padding: 2px;
+  box-shadow: inset 0 20px 5px -20px;
 }
-#restaurants img {
-    height: 180px;
-    width: 335px;
+.localisation p {
+  font-weight: 500;
 }
-#footer img {
-    width: 95px;
-    height: auto;
-    color: white;
+.localisation i {
+  padding-right: 20px;
 }
+.explore {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: #f8f4f4;
+}
+.explore h3 {
+  margin: 0px 60px 10px 60px;
+  padding-top: 40px;
+  font-size: x-large;
+}
+.explore p {
+  margin: 10px 30px 10px 30px;
+  font-size: large;
+  font-weight: 300;
+}
+.explore-button {
+  padding: 2vh;
+  border-radius: 30px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background: linear-gradient(350deg,#9356DC,#FF79DA);
+  border: white;
+  font-size: medium;
+  margin-bottom: 55px;
+  width: 225px;
+}
+/*-----------[Section: Fonctionnement]-------------*/
+#fonctionnement {
+  font-family: "Roboto", sans-serif;
+}
+#fonctionnement h3 {
+  font-size: x-large;
+  margin: 60px 0px 40px 20px;
+}
+.step-1, .step-2, .step-3 {
+  margin-left: 30px;
+  margin-right: 15px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0px 0px 5px 5px #eaeaea;
+}
+.step-3 {
+  margin-bottom: 70px;
+}
+.step-1 span, .step-2 span, .step-3 span {
+  border-radius: 50px;
+  padding: 4px 8px 4px 8px;
+  background-color: #9356DC;
+  border: 1px solid #9356DC;
+  color: white;
+  margin-left: -12px;
+  font-size: small;
+} 
+.step-1 p, .step-2 p, .step-3 p{
+  padding: 30px 0px 30px;
+  font-weight: bold;
+}
+.step-1 i, .step-2 i, .step-3 i {
+  margin-left: 15px;
+  color: grey;
+  font-size: large;
+  margin-right: 20px;
+}
+
+/*-----------[Section: Restaurants]-------------*/
+#restaurant {
+  background-color: #F8F4F4;
+  font-family: "Roboto", sans-serif;
+  padding-top: 60px;
+}
+.restaurant-container {
+  margin: 15px 15px;
+  gap: 20px;
+}
+
+#restaurant img {
+  height: 180px;
+  width: 335px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  object-fit: cover;
+  box-shadow: 0px 0px 5px 1px #eaeaea;
+}
+.restaurant-1, .restaurant-2, .restaurant-3,.restaurant-4 {
+  display: inline-flex;
+  flex-direction: column;
+  padding-bottom: 2vh;
+  position: relative;
+  
+}
+.restaurant-infos {
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: white;
+  font-size: large;
+  font-weight: 300;
+  position: relative;
+  box-shadow: 0px 0px 5px 1px #eaeaea;
+}
+.restaurant-infos p { 
+  margin-left: 15px;
+  width: fit-content;
+}
+.heart {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 35px;
+  font-size: x-large;
+}
+.new {
+  position: absolute;
+  top: 1px;
+  right: 10px;
+  font-size: small;
+  color: #118e6f;
+  background-color: #99E2D0;
+  padding: 8px;
+  border-radius: 5px;
+  width: 60px;
+  text-align: center;
+}
+/*-----------[Section: Footer]-------------*/
+#footer {
+  background-color: #343434;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+  padding-bottom: 35px;
+  position: relative;
+  bottom: 0;
+}
+#footer i {
+  padding-right: 10px;
+  font-size: small;
+}
+.help {
+  padding-right: 7px!important;
+  margin-left: -2px;
+}
+#footer a {
+  color: white;
+}
+.title {
+  font-family: "Shrikhand", sans-serif;
+  font-weight: lighter;
+  padding: 30px 0px 0px 0px ;
+}
+#footer p {
+  margin-block-end: 0;
+}
+
