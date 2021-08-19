@@ -10,7 +10,7 @@
         <script src="https://kit.fontawesome.com/cbf8feb3a6.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
+        <header class="primary">
             <a href="../index.html"><i class="fas fa-arrow-left back"></i></a>
                 <img src="../images/logo/ohmyfood@2x.svg" alt="Logo de Oh My Food" class="logo-header">
         </header>
@@ -20,69 +20,117 @@
                     <img src="../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Image du Restaurant A la française">
                 </div>
                 <div class="menu-container">
-                <h3>A la francaise<i class="far fa-heart heart-menu"></i><i class="fas fa-heart heart-pages"></i></h3>
-                <div class="menu-entrees">
-                    <div class="border">
-                        <h4>ENTRÉES</h4>
+                    <h2>A la française<i class="far fa-heart heart-menu"></i><i class="fas fa-heart heart-pages"></i></h2>
+                    <div class="carte-container">
+                        <div class="menu-entrees order-1">
+                            <div class="border">
+                                <h3>ENTRÉES</h3>
+                            </div>
+                            <section class="choix order-1">
+                                <header class="container">
+                                    <h4>Tartare de poulpe acidulé</h4>
+                                    <p>Aux zestes d'orange</p>   
+                                </header>
+                                <span class="price">25€</span>
+                                <div class="validate">
+                                    <i class="fas fa-check-circle"></i>    
+                                </div>
+                            </section>
+                            <section class="choix order-2">
+                                <header class="container">
+                                    <h4>Velouté de légumes d'antan</h4>
+                                    <p>Carotte, panais, topinambour</p>   
+                                </header>
+                                <span class="price">35€</span>
+                                <div class="validate">
+                                    <i class="fas fa-check-circle"></i>    
+                                </div>
+                            </section>
+                            <section class="choix order-3">
+                                <header class="container">
+                                    <h4>Soupe à l'oignon</h4>
+                                    <p>Revisitée</p>
+                                </header>
+                                <span class="price">20€</span>
+                                <div class="validate">
+                                    <i class="fas fa-check-circle"></i>    
+                                </div>
+                            </section>
+                        </div>
+                        <div class="menu-plats order-4">
+                            <div class="border">
+                                <h3>PLATS</h3>
+                            </div>
+                            <section class="choix order-4">
+                                <header class="container">
+                                    <h4>Coquilles Saint-Jacques</h4>
+                                    <p>Accompagnées d'une purée de panais</p>
+                                </header>
+                                <span class="price">40€</span>
+                                <div class="validate">
+                                    <i class="fas fa-check-circle"></i>    
+                                </div>
+                            </section>
+                            <section class="choix order-5">
+                                <header class="container">
+                                    <h4>Magret de canard</h4>
+                                    <p>Et parmentier de pommes de terre</p>
+                                </header>
+                                <span class="price">35€</span>
+                                <div class="validate">
+                                    <i class="fas fa-check-circle"></i>    
+                                </div>
+                            </section>
+                            <section class="choix order-6">
+                                <header class="container">
+                                    <h4>Pigeonneau d’Ille-et-Vilaine</h4>
+                                    <p>Sur son lit de gnocchis aux légumes</p>
+                                </header>
+                                <span class="price">44€</span>
+                                <div class="validate">
+                                    <i class="fas fa-check-circle"></i>    
+                                </div>
+                            </section>
+                        </div>
+                        <div class="menu-desserts order-7">
+                            <div class="border">
+                                <h3>DESSERTS</h3>
+                            </div>
+                            <section class="choix order-7">
+                                <header class="container">
+                                    <h4>Pétales de violettes glacés</h4>
+                                    <p>Et purée de noisettes</p>
+                                </header>
+                                <span class="price">18€</span>
+                                <div class="validate">
+                                    <i class="fas fa-check-circle"></i>    
+                                </div>
+                            </section>
+                            <section class="choix order-8">
+                                <header class="container">
+                                    <h4>Fondant au chocolat </h4>                             
+                                    <p>Revisité</p>
+                                </header>
+                                <span class="price">22€</span>
+                                <div class="validate">
+                                    <i class="fas fa-check-circle"></i>    
+                                </div>
+                            </section>
+                            <section class="choix order-9">
+                                <header class="container">
+                                    <h4>Millefeuille croustillant</h4>
+                                    <p>Myrtilles et pâte d’amande</p>
+                                </header>
+                                <span class="price">23€</span>
+                                <div class="validate">
+                                    <i class="fas fa-check-circle"></i>    
+                                </div>
+                            </section>
+                        </div>
                     </div>
-                    <div class="choix">
-                        <p><b>Tartare de poulpe acidulé</b></p>
-                        <p>Aux zestes d'orange</p>
-                        <span class="price">25€</span>
+                    <div class="commander order-10">
+                        <button type="submit">Commander</button>
                     </div>
-                    <div class="choix">
-                        <p><b>Velouté de légumes d'antan</b></p>
-                        <p>Carotte, panais, topinambour</p>
-                        <span class="price">35€</span>
-                    </div>
-                    <div class="choix">
-                        <p><b>Soupe à l'oignon</b></p>
-                        <p>Revisitée</p>
-                        <span class="price">20€</span>
-                    </div>
-                </div>
-                <div class="menu-plats">
-                    <div class="border">
-                        <h4>PLATS</h4>
-                    </div>
-                    <div class="choix">
-                        <p><b>Coquilles Saint-Jacques</b></p>
-                        <p>Accompagnées d'une purée de panais</p>
-                        <span class="price">40€</span>
-                    </div>
-                    <div class="choix">
-                        <p><b>Magret de canard</b></p>
-                        <p>Et parmentier de pommes de terre</p>
-                        <span class="price">35€</span>
-                    </div>
-                    <div class="choix">
-                        <p><b>Pigeonneau d’Ille-et-Vilaine</b></p>
-                        <p>Sur son lit de gnocchis aux légumes</p>
-                        <span class="price">44€</span>
-                    </div>
-                </div>
-                <div class="menu-desserts">
-                    <div class="border">
-                        <h4>DESSERTS</h4>
-                    </div>
-                    <div class="choix">
-                        <p><b>Pétales de violettes glacés</b></p>
-                        <p>Et purée de noisettes</p>
-                        <span class="price">18€</span>
-                    </div>
-                    <div class="choix">
-                        <p><b>Fondant au chocolat</b></p>
-                        <p>Revisité</p>
-                        <span class="price">22€</span>
-                    </div>
-                    <div class="choix">
-                        <p><b>Millefeuille croustillant</b></p>
-                        <p>Myrtilles et pâte d’amande</p>
-                        <span class="price">23€</span>
-                    </div>
-                </div>
-                <div class="commander">
-                    <button type="button">Commander</button>
                 </div>
             </section>
         </main>
