@@ -1,0 +1,224 @@
+@media screen and (min-width: 1px) and (max-width:374px) {
+    #restaurant img {
+        width: 100%;
+    }
+    .menu-container h2 {
+        display: flex;
+        align-items: center;
+    }
+    .view img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .heart-menu, .heart-pages {
+        position: initial;
+    }
+    .heart-menu {
+        padding-left: 15px;
+    }
+    .heart-pages {
+        margin-left: -27px;
+    }
+    .back {
+        display: flex;
+        flex-direction: column;
+        position: inherit;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width: 376px) {
+    #fonctionnement {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .fonctionnement-container {
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .step-1 , .step-2, .step-3 {
+        max-width: 361px;
+    }
+    .card-container {
+        display: grid;
+        gap: 20px;
+        justify-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .restaurant-1, .restaurant-2, .restaurant-3, .restaurant-4 {
+        padding-bottom: 0;
+
+    }
+    .restaurant-container {
+        width: 100%;
+    }
+    .restaurant-container h2 {
+        text-align: center;
+    }
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .title {
+        font-size: x-large;
+    }
+    .view img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .choix {
+        width: 100%;
+    }
+    .container {
+        max-width: initial;
+        text-align: left;
+    }
+    .menu-entrees, .menu-plats, .menu-desserts {
+        display: inline-flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .menu-container {
+        text-align: center;
+    }
+    .menu-container h2 {
+        display: flex;
+        justify-content: center;
+        line-height: 47px;
+    }
+    .heart-menu {
+        padding-left: 15px;
+    }
+    .heart-pages {
+        margin-left: -28px;
+    }
+    .heart-menu, .heart-pages {
+        position: inherit;
+        vertical-align: middle;
+        line-height: 47px!important;
+    }
+    .carte-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        margin: auto 5%;
+    }
+    
+}
+
+@media screen and (min-width: 380px) and (max-width: 730px) {
+    footer {
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width:900px) and (max-width:1440px) {
+    .card-container {
+        gap: 20px;
+    } 
+}
+@media screen and (min-width: 1220px) { 
+    .carte-container {
+        flex-wrap: nowrap;
+    }
+    .order-1,.order-4,.order-7 {
+        animation-delay: 0.5s;
+    }
+    .order-2,.order-5,.order-8 {
+        animation-delay: 1s;
+    }
+    .order-3,.order-6,.order-9 {
+        animation-delay: 1.5s;
+    }
+    .order-10 {
+        animation-delay: 2s;
+    }
+
+}
+@media screen and (min-width: 1441px) {
+    .primary {
+        font-size: xx-large;
+    }
+    .logo-header {
+        width: 250px;
+    }
+    .localisation p {
+        font-size: x-large;
+    }
+    .explore h3 {
+        font-size: xx-large;
+    }
+    .explore p {
+        font-size: x-large;
+    }
+    .explore-button button, .commander button {
+        font-size: x-large;
+        margin-left: 0;
+        width: auto;
+    }
+    #fonctionnement h3 {
+        font-size: xx-large;
+    }
+    .step-1, .step-2, .step-3 {
+        font-size: x-large;
+    }
+    .step-1 span , .step-2 span,.step-3 span {
+        font-size: large;
+        border-radius: 100%;
+        padding: 8px 14px 8px 14px;
+    }
+    .step-1 i , .step-2 i, .step-3 i {
+        font-size: x-large;
+        margin-left: 10px;
+        margin-right: 17px;
+    }
+    .step-1 p, .step-2 p, .step-3 p {
+        padding-right: 10px;
+    }
+    #restaurant h2 {
+        font-size: xx-large;
+    }
+    .restaurant-infos p {
+        font-size: x-large;
+    }
+    .restaurant-infos i {
+        font-size: xx-large;
+    }
+    .new {
+        font-size: large;
+        width: auto;
+    }
+    .menu-container h2 {
+        font-size: 2em;
+    }
+    .container h4, .price, .menu-container h3 {
+        font-size: x-large;
+    }
+    .container {
+        font-size: 1.23em;
+    }
+    .card-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .heart-pages {
+        margin-left: -32px;
+    }
+    .validate i, .heart-menu, .heart-pages {
+        font-size: xx-large;
+    }
+    footer, footer i {
+        font-size: x-large;
+    }
+    .title {
+        font-size: xx-large;
+    }
+}

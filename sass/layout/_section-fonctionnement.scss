@@ -1,0 +1,93 @@
+#fonctionnement {
+    font-family: $police-roboto;
+    padding-bottom: 36px;
+}
+#fonctionnement h3 {
+    font-size: x-large;
+    margin: 60px 0px 40px 20px;
+}
+.fonctionnement-container {
+    display: block;
+}
+.step-1 {
+    margin-left: 36px;
+    margin-right: 20px;
+    background-color: $color-background-lighter;
+    border-radius: 20px;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+    margin-bottom: 34px;
+} 
+.step-1 span {
+    border-radius: 50px;
+    padding: 4px 8px 4px 8px;
+    background-color: $color-primary;
+    border: 1px solid transparent;
+    color: white;
+    margin-left: -21px;
+    font-size: small;
+} 
+.step-1 p {
+    padding: 25px 0px 25px 6px;
+    font-weight: bold;
+}
+.step-1 i {
+    margin-left: 17px;
+    color: grey;
+    font-size: large;
+    margin-right: 27px;
+} 
+.step-2 {
+    margin-left: 36px;
+    margin-right: 20px;
+    background-color: $color-background-lighter;
+    border-radius: 20px;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+    margin-bottom: 34px;
+} 
+.step-2 span {
+    border-radius: 50px;
+    padding: 4px 8px 4px 8px;
+    background-color: $color-primary;
+    border: 1px solid transparent;
+    color: white;
+    margin-left: -21px;
+    font-size: small;
+} 
+.step-2 p {
+    padding: 25px 0px 25px 6px;
+    font-weight: bold;
+}
+.step-2 i {
+    margin-left: 17px;
+    color: grey;
+    font-size: large;
+    margin-right: 21px;
+} 
+.step-3 {
+    margin-left: 36px;
+    margin-right: 20px;
+    background-color: $color-background-lighter;
+    border-radius: 20px;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+    margin-bottom: 34px;
+
+}
+.step-3 span {
+    border-radius: 50px;
+    padding: 4px 8px 4px 8px;
+    background-color: $color-primary;
+    border: 1px solid transparent;
+    margin-left: -21px;
+    font-size: small;
+    color: white;
+} 
+.step-3 p {
+    padding: 25px 0px 25px 6px;
+    font-weight: bold;
+}
+.step-3 i {
+    margin-left: 18px;
+    font-size: large;
+    margin-right: 18px;
+    color: grey;
+}

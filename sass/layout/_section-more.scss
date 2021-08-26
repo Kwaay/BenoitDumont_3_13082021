@@ -1,0 +1,51 @@
+.localisation {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: #eaeaea;
+    padding: 15px;
+    border-top: 3px solid rgb(174 174 174 / 13%);
+}
+.localisation p {
+    font-weight: 500;
+    margin: 0;
+}
+.localisation i {
+    padding-right: 15px;
+}
+.explore {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: #f8f4f4;
+}
+.explore h3 {
+    margin: -4px 50px -3px 38px;
+    padding-top: 40px;
+    font-size: x-large;
+}
+.explore p {
+    margin: 14px 22px 10px 30px;
+    font-size: large;
+    font-weight: 300;
+}
+.explore-button {
+    margin-left: 9px;
+}
+.explore button {
+    padding: 15px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: $police-roboto;
+    color: white;
+    background: linear-gradient(0deg,rgba(147,86,220,1.0),rgba(255,121,218,1.0));
+    border: white;
+    font-size: medium;
+    margin-bottom: 45px;
+    width: 216px;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgba(174,174,174,0.7);
+    transition: opacity 0.45s ease-in-out, box-shadow 0.45s ease-in-out;
+    &:hover {
+       opacity: 0.8;
+       box-shadow: 0.25rem 0.25rem 0.5rem rgba(138, 137, 137, 1);
+       
+    }
+}

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>OhMyFood | Index </title>
-        <link href="style.css" rel="stylesheet" />
+        <link href="./css/style.css" rel="stylesheet" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap" rel="stylesheet">
@@ -11,9 +11,6 @@
     </head>
     <body>
         <section id="preloader">
-            <div class="fork">
-                <img src="images/loader/fork.png" alt="Fourchette">
-            </div>
             <div class="preloader-container"> 
                 <h3>Bon appétit !</h3>
                 <img src="images/logo/ohmyfood@2x.svg" alt="Logo OhMyFood">
@@ -21,15 +18,17 @@
                     <div class="spinner"></div>
                 </div>
             </div>
-            <div class="knife">
-                <img src="images/loader/knife.png" alt="Couteau">
-            </div>
         </section>
         <header class="primary">
             <img src="images/logo/ohmyfood.png" alt="Logo de Oh My Food Header" class="logo-header">
-            <div class="localisation">
-                <p><i class="fas fa-map-marker-alt"></i>Paris, Belleville</p>
-            </div>
+        </header>
+        <main>
+        <section id="more">
+            <header>
+                <div class="localisation">
+                    <p><i class="fas fa-map-marker-alt"></i>Paris, Belleville</p>
+                </div>    
+            </header>
             <div class="explore">
                 <h3>Réservez le menu qui vous convient</h3>
                 <p>Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
@@ -38,8 +37,7 @@
                     <button type="button">Explorer nos restaurants</button> 
                 </div>
             </div>
-        </header>
-        <main>
+        </section>
         <section id="fonctionnement">
             <h3>Fonctionnement</h3>
             <header class="fonctionnement-container">

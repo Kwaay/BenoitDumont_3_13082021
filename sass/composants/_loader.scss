@@ -1,0 +1,46 @@
+#preloader {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: loader 1s forwards 3s;
+}
+.preloader-container {
+    margin: 20px 20px;
+}
+.preloader-container img {
+    text-align: center;
+}
+.preloader-container h3 {
+    animation: bounce-top 1s 1s ease-in-out both;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.spinner-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
+.spinner {
+    display: block;
+    top: 50%;
+    left: 50%;
+    height: 50px;
+    width: 50px;
+    border: 4px rgba(0, 0, 0, 0.25) solid;
+    border-top: 4px black solid;
+    border-right: 4px black solid;
+    border-bottom: 4px black solid;
+    border-radius: 50%;
+    animation: spinner 1s infinite linear;
+}
