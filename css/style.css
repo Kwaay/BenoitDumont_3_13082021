@@ -525,7 +525,7 @@ a:active {
 
 .menu-container h3 {
   padding-bottom: 5px;
-  font-weight: 350;
+  font-weight: 400;
   margin: 0;
   font-size: medium;
 }
@@ -704,13 +704,6 @@ a:active {
   .heart-pages {
     margin-left: -27px;
   }
-
-  .back {
-    display: flex;
-    flex-direction: column;
-    position: inherit;
-    padding-top: 15px;
-  }
 }
 @media screen and (min-width: 376px) {
   #fonctionnement {
@@ -812,6 +805,10 @@ a:active {
     flex-wrap: wrap;
     gap: 40px;
     margin: auto 5%;
+  }
+
+  .step-1 p, .step-2 p, .step-3 p {
+    padding-right: 10px;
   }
 }
 @media screen and (min-width: 380px) and (max-width: 730px) {
