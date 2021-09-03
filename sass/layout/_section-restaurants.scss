@@ -13,6 +13,7 @@
     border-top-right-radius: 20px;
     position: relative;
     object-fit: cover;
+    aspect-ratio: 16/9;
 }
 .restaurant-1, .restaurant-2, .restaurant-3,.restaurant-4 {
     display: inline-grid;
